@@ -22,11 +22,10 @@ A real-time status and incident monitoring dashboard for Tokyo metropolitan rail
 ### Setup & Run
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/SEU_USUARIO/tokyo-transit-live-board.git](https://github.com/SEU_USUARIO/tokyo-transit-live-board.git)
+   git clone https://github.com/rafaelfelix853-commits/tokyo-transit-live-board.git
    cd tokyo-transit-live-board
 
-   Configure environment variables (copy .env.example to .env).
-
 Run backend & seed initial data:
+```bash
 cd backend
 python -m app.seed
