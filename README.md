@@ -25,7 +25,7 @@ A real-time status and incident monitoring dashboard for Tokyo metropolitan rail
    git clone https://github.com/rafaelfelix853-commits/tokyo-transit-live-board.git
    cd tokyo-transit-live-board
 
-Run backend & seed initial data:
+2. Run backend & seed initial data:
 ```bash
 cd backend
 python -m app.seed
