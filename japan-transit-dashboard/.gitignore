@@ -1,0 +1,25 @@
+# Python / Virtual Environment
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Node / Frontend
+node_modules/
+.next/
+out/
+build/
+
+# Environment Variables & Secrets (MUITO IMPORTANTE)
+.env
+.env.local
+.env.development
+.env.production
+*.key
+*.pem
+
+# IDEs & System files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
