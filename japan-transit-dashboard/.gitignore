@@ -3,6 +3,7 @@ venv/
 .venv/
 __pycache__/
 *.py[cod]
+*$py.class
 
 # Node / Frontend
 node_modules/
@@ -12,9 +13,8 @@ build/
 
 # Environment Variables & Secrets (MUITO IMPORTANTE)
 .env
-.env.local
-.env.development
-.env.production
+.env*
+!.env.example
 *.key
 *.pem
 
